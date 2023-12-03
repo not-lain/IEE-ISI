@@ -35,7 +35,6 @@ async () => {
 
 
 with gr.Blocks() as demo:   
-    text = gr.Textbox()
     x = gr.Textbox(id="outtext")
     # run script function on load,
     b = gr.Button(label="Start")
